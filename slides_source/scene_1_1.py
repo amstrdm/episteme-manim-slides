@@ -6,8 +6,6 @@ def Scene1_1_Title(self):
     # Temporary plane
     # grid = NumberPlane(color=YELLOW)
     # self.add(grid)
-    self.play(FadeIn(Circle(radius=1, color=config.background_color)))
-    self.next_slide()
     logo = SVGMobject("assets/vectorized_logo_scaled.svg")
     episteme_text = Text("Episteme", font_size=96, color=PresentationColors.ACCENT_MAIN, )
     subtitle = Paragraph(
