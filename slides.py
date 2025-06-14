@@ -15,8 +15,8 @@ class Presentation(Slide):
     skip_reversing = True
     def construct(self):
         self.wait_time_between_slides = 0.1
-        scene_1_2.Scene1_2_Introduction(self)
         scene_1_1.Scene1_1_Title(self)
+        scene_1_2.Scene1_2_Introduction(self)
         scene_2.Scene2_Goals_and_Functionalities(self)
         scene_3.Scene3_Technology_Stack(self)
         scene_4.Scene_4_Cosine_Similarity(self)
